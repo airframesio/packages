@@ -1,0 +1,14 @@
+[Unit]
+Description=
+
+[Service]
+Type=forking
+ExecStart=/bin/bash /usr/local/airframes/bin/acarsdec.sh
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=acarsdec
+Restart=always
+RestartSec=60
+
+[Install]
+WantedBy=default.target
