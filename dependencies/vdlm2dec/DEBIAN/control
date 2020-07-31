@@ -1,0 +1,9 @@
+Package: airframes-vdlm2dec
+Version: 1.0
+Section: custom
+Priority: optional
+Architecture: all
+Essential: no
+Installed-Size: 1024
+Maintainer: airframes.io
+Description: Services and configuration for vdlm2dec for airframes.io
